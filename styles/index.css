@@ -1,0 +1,350 @@
+ html {
+     --scoot-orange: #fcb72b;
+     --link-grey: #939caa;
+     --text-grey: #495567;
+     overflow-x: hidden;
+
+ }
+
+ * {
+     box-sizing: border-box;
+     margin: 0;
+
+
+ }
+
+ p {
+     font-family: "Lexend Deca", sans-serif;
+     font-size: 15px;
+     line-height: 25px;
+ }
+
+ h1 {
+     font-family: "Space Mono", monospace;
+     font-size: 56px;
+     line-height: 56px;
+     width: 100%;
+     height: 112px;
+     margin: 0;
+ }
+
+ .ind {
+     width: 100%;
+     height: 650px;
+     background-image: url("../assets/images/home-hero-desktop.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-bottom: 0;
+ }
+
+ .header-text {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 345px;
+     width: 562px;
+     color: white;
+     position: absolute;
+     top: 153px;
+     left: 165px;
+ }
+
+ header p,
+ header button {
+     margin-left: 113px;
+ }
+
+ header p {
+     width: 405px;
+     height: 100px;
+ }
+
+ header .line {
+     position: absolute;
+     bottom: 295px;
+ }
+
+ header .right-arrow {
+     position: absolute;
+     bottom: 157px;
+     right: 279px;
+ }
+
+ .ind .white-circles {
+     right: -48px;
+     bottom: 164.5px;
+ }
+
+ /* step by step column*/
+
+ .background-line {
+     background-color: rgb(229, 236, 244);
+     position: absolute;
+     top: 44px;
+     left: 0;
+     width: 973px;
+     height: 15px;
+ }
+
+ .step-by-step {
+     display: flex;
+     justify-content: flex-end;
+     position: relative;
+     margin-top: 160px;
+     margin-bottom: 200px;
+     width: 1274.5px;
+
+ }
+
+ .stepbystep-column-cont {
+     display: flex;
+     position: inherit;
+     justify-content: space-between;
+     z-index: 10;
+     width: 1110px;
+
+ }
+
+ .stepbystep-column {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 350px;
+     height: 291px;
+
+
+ }
+
+ .text-column {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 155px;
+ }
+
+
+ .text-column h4 {
+     font-size: 24px;
+     font-family: "Space Mono", monospace;
+     color: var(--text-grey);
+     margin: 0;
+ }
+
+ .text-column p {
+     font-size: 15px;
+     color: #939caa;
+     font-family: lexend deca;
+     margin: 0;
+ }
+
+ /* learn more section */
+
+ .learn-more-btn {
+     background-color: #fcb72b;
+     color: white;
+     height: 52px;
+     width: 180px;
+     margin-top: 35px;
+ }
+
+ .article-cont1,
+ .article-cont3 {
+
+     width: 100%;
+     margin-bottom: 160px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     margin-left: 165px;
+
+
+
+
+ }
+
+ h2 {
+     font-family: space mono, monospace;
+     color: #495567;
+     font-size: 48px;
+     line-height: 48px;
+     margin: 0;
+     font-weight: 900;
+
+     width: 518px;
+ }
+
+ .article-text1,
+ .article-text2,
+ .article-text3 {
+     font-family: lexend deca;
+     font-size: 15px;
+     line-height: 25px;
+     margin-top: 24px;
+     margin-bottom: 40;
+     color: #939caa;
+     width: 445px;
+ }
+
+ .article1,
+ .article3 {
+     display: flex;
+     flex-direction: column;
+
+     height: auto;
+     width: 445px;
+     margin-right: 220px;
+
+
+ }
+
+ .say-hello-btn,
+ .apply-button {
+     border: none;
+     background-color: #fcb72b;
+     color: white;
+     font-weight: 700;
+     width: 180px;
+     height: 53px;
+     margin-top: 20px;
+     font-family: Space Mono, monospace;
+     text-align: center;
+ }
+
+ .images-cont1,
+ .images-cont2,
+ .images-cont3 {
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+
+
+ }
+
+ .image img {
+     width: 445px;
+     border-radius: 50%;
+     margin-right: 60px;
+
+
+ }
+
+ .arrow {
+     position: absolute;
+     margin-top: 300px;
+ }
+
+ /* learn more second article*/
+
+ .article-cont2 {
+     display: flex;
+     flex-direction: row-reverse;
+     margin-bottom: 160px;
+     margin-right: 160px;
+     align-items: center;
+
+ }
+
+ .article2 {
+     display: flex;
+     flex-direction: column;
+     margin-left: 220px;
+     position: relative;
+     right: -75px;
+ }
+
+ .images-cont2 {
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: space-between;
+     position: relative;
+     left: 80px;
+     width: 954px;
+ }
+
+ .images-cont2 img {
+     margin-left: 60px;
+     width: 445px;
+     border-radius: 50%;
+ }
+
+ .arrow2 {
+     transform: rotate(180deg);
+     position: absolute;
+     margin-top: 0px;
+     right: 260px;
+
+ }
+
+ .arrow3 {
+     position: absolute;
+     left: 255px;
+     bottom: 210px;
+ }
+
+ @media screen and (max-width: 1435px) {
+     .ind {
+         background-image: url("../assets/images/home-hero-tablet.jpg");
+     }
+
+     .header-text {
+         width: 573px;
+         height: 296px;
+         top: 137px;
+         left: 0;
+         right: 0;
+         margin: auto;
+         text-align: center;
+     }
+
+     header p {
+         margin-left: 0;
+         width: 100%;
+         height: 75px;
+     }
+
+     header button {
+         margin: 0 auto;
+     }
+
+     header .line {
+         display: none;
+     }
+
+     header .right-arrow {
+         left: -127px;
+         bottom: 39px;
+     }
+
+     .ind .white-circles {
+         right: -31px;
+         bottom: 45px;
+     }
+ }
+
+ @media screen and (max-width: 700px) {
+     h1 {
+         font-size: 40px;
+         line-height: 40px;
+         height: 120px;
+     }
+
+     header {
+         background-image: url("../assets/images/home-hero-mobile.jpg");
+         height: 650px;
+     }
+
+     .header-text {
+         width: 311px;
+         height: 356px;
+         top: 115px;
+     }
+
+     header p {
+         height: 125px;
+     }
+
+     header .right-arrow {
+         left: -312px;
+         bottom: 34px;
+     }
+ }

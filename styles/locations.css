@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.loc {
+  background-image: url("../assets/images/careers-locations-hero-tablet.jpg");
+}
+
+.world{
+  width: 100%;
+}
+
+.world img{
+  width: 80%;
+  height: 600px; 
+  margin-left: 10%; 
+  margin-top: 130px;
+  position: relative;
+}
+
+.ny,
+.london,
+.jakarta,
+.yokohama {
+  color: var(--text-grey);
+  position: absolute;
+  width: 189px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+}
+
+.rectangle {
+  background-color: var(--scoot-orange);
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle p {
+  font-size: 24px !important;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-top: 18px solid var(--scoot-orange);
+  position: absolute;
+  bottom: 0;
+}
+
+.ny{
+  left: 147px;
+  top: 71.4px;
+}
+
+.london{
+  left: 560px;
+  top: 158px;
+}
+
+.yokohama{
+  left: 1035px;
+  top: 230px;
+}
+
+.jakarta{
+  left: 950px;
+  top: 415px;
+}
+
+.message{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  height: 300px;
+}
+.your-city{
+  width: 18%;
+}
+
+.your-city h2{
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--text-grey);
+}
+
+.paragraph{
+  width: 30%;
+}
+
+.paragraph p{
+  font-size: 18px;
+  color: var(--link-grey);
+}

@@ -1,0 +1,190 @@
+.car {
+  background-image: url("../assets/images/careers-locations-hero-tablet.jpg");
+}
+
+
+
+.article-cont {
+
+  width: 100%;
+  margin-bottom: 160px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 165px;
+
+}
+
+h2 {
+  font-family: "Space Mono", monospace;
+  color: var(--text-grey);
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0;
+  font-weight: 900;
+}
+
+.article-text {
+  margin-top: 24px;
+  margin-bottom: 40;
+  color: var(--link-grey);
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+  width: 445px;
+  margin-right: 220px;
+
+}
+
+.say-hello-btn,
+.apply-button {
+  margin-top: 20px;
+  font-family: Space Mono, monospace;
+}
+
+.images-cont {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 954px;
+}
+
+.image img {
+  height: 445px;
+  border-radius: 50%;
+
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 300px;
+}
+
+/* why join us */
+.our-values {
+  margin: auto;
+  margin-bottom: 120px;
+  text-align: center;
+  width: 1110px;
+}
+
+.our-values-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.value1,
+.value2,
+.value3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 512px;
+}
+
+.our-values-image-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 25px;
+}
+
+.circle-yellow {
+  background-color: var(--scoot-orange);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.our-tech-bubble {
+  font-size: 24px;
+  font-family: "Lexend Deca", sans serif;
+}
+
+.value-image {
+  border-radius: 50%;
+  width: 235px;
+}
+
+
+
+.join-us-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.join-us-article-title {
+  font-size: 24px;
+  font-family: space mono;
+  color: var(--text-grey);
+  margin: 0;
+
+}
+
+.join-us-article-text {
+  color: var(--link-grey);
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+  padding-top: 30px;
+}
+
+/* job apply*/
+
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+.job-opening {
+  background-color: var(--light-grey);
+  display: flex;
+  flex-direction: space-between;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.job-title {
+  font-size: 24px;
+  font-family: "Space Mono", monospace;
+  color: var(--text-grey);
+  margin: 0;
+
+}
+
+.job-location {
+
+  color: var(--link-grey);
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+}
+
+.apply-button {
+  margin: 0;
+  margin-right: 40px;
+}
